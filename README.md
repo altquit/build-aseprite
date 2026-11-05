@@ -1,16 +1,17 @@
 # build-aseprite
 
-GitHub Actions workflow that builds Aseprite for Windows, macOS, and Linux.
+GitHub Actions workflow for building Aseprite on Windows, macOS, and Linux.
 
-## Run the workflow
+## Use the workflow
 
-1. Open the **Actions** tab of this repository.
-2. Select the **Aseprite** workflow in the left sidebar.
-3. Click **Run workflow**, choose the `main` branch, and click **Run workflow** again to confirm.
-4. Open the new workflow run to follow its progress. It builds all three platforms; when complete, open this repository's **Releases** page to download the matching platform ZIP file.
+1. Fork this repository to your GitHub account.
+2. In your fork, open **Actions** and select the **Aseprite** workflow.
+3. Click **Run workflow**, select the `main` branch, then confirm.
+4. When the run finishes, download the ZIP for your platform from the release created in your fork.
+5. After downloading, delete that release and its assets. Do not redistribute the compiled binaries. Ensure your use complies with Aseprite's [license and terms](https://www.aseprite.org/faq/#license).
 
-The workflow can also run automatically when `BuildLog.md` is pushed to the `main` branch.
+The workflow also runs when `BuildLog.md` is pushed to the `main` branch.
 
-## Important: delete the release after downloading
+## Disclaimer
 
-**Download the build for your own use, then delete the GitHub release and its assets. Do not redistribute the compiled binaries.** Aseprite does not allow distribution of compiled binaries from this repository. Please make sure you have the right to build and use Aseprite, and follow the [Aseprite license and terms](https://www.aseprite.org/faq/#license).
+This project is not affiliated with or endorsed by Aseprite or its developers. The contents of this repository are licensed under the [MIT License](LICENSE); that license does not apply to Aseprite or grant rights to its software. You are responsible for complying with Aseprite's terms.
