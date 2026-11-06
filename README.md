@@ -1,6 +1,6 @@
 # build-aseprite
 
-GitHub Actions workflow for building Aseprite on Windows, macOS, and Linux.
+GitHub Actions workflow for building Aseprite on Windows and Linux.
 
 ## Use the workflow
 
